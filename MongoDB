@@ -1,0 +1,41 @@
+PS C:\Users\Facundo\Documents\api_biblioteca> npm init -y
+Wrote to C:\Users\Facundo\Documents\api_biblioteca\package.json:
+
+{
+  "name": "api_biblioteca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+
+
+PS C:\Users\Facundo\Documents\api_biblioteca> npm install express
+
+added 62 packages, and audited 63 packages in 11s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Facundo\Documents\api_biblioteca> npm install mongoose
+
+added 12 packages, removed 1 package, changed 3 packages, and audited 469 packages in 15s        
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (7 moderate, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS C:\Users\Facundo\Documents\api_biblioteca> node app.js                        "Servidor iniciado en el >>  puerto
+ "Servidor iniciado en el >>  puerto 3000"
